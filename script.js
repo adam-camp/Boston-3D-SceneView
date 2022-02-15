@@ -51,8 +51,8 @@ require([
     view.ui.add(homeBtn, "top-right");
     
     [v1, v2, v3].forEach(function(button) {
-      button.style.display = '.esri-button';
-      view.ui.add(button, 'bottom-right');
+      button.style.display = 'flex';
+      view.ui.add(button, 'top-right');
     });
     
     v1.addEventListener('click', function() {
