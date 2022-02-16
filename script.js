@@ -19,9 +19,9 @@ require([
       
       var camera = new Camera({
         position: [
-          -71.02, // lon
-          42.21770, // lat
-          15000// elevation in meters
+          -71.045, // lon
+          42.350, // lat
+          14000// elevation in meters
         ],
         tilt:0,
         heading: 0
